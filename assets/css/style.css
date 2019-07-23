@@ -1,5 +1,7 @@
 /*font-family: 'Alfa Slab One', cursive;
-font-family: 'Ek Mukta', sans-serif;*/
+font-family: 'Ek Mukta', sans-serif;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, cursive;
+*/
 
 /* Backgrounds */
 body {
@@ -8,11 +10,12 @@ body {
 }
 
 .jumbotron {
-	background-color: #ffffff;
+	background-color: #1513a1;
+	color: aliceblue;
 }
 
 #gameSection, #scoreSection {
-	background-color: #ffffff;
+	background-color: #1513af;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -34,10 +37,13 @@ body {
 /* Fonts */
 h1, h2, h3 {
 	font-family: 'Alfa Slab One', cursive;
+	color: aliceblue;
+
 }
 
 p {
 	font-family: 'Ek Mukta', sans-serif;
+	color:aliceblue; 
 }
 
 .numberBox {
