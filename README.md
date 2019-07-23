@@ -13,12 +13,12 @@ You will be given a random number at the start of the game. Use the crystals to 
 
 Match your points to the random number to win. If you go over, you lose!
 
-![alt text](assets/images/crystal-collector-1.PNG "Image 1")
+![alt text](assets/images/crystal-collector-4.PNG "Image 1")
 
 
-![alt text](assets/images/crystal-collector-2.PNG "Crystals Collector 2")
+![alt text](assets/images/crystal-collector-4.PNG "Crystals Collector 2")
 
-### [Play the Game!](https://risaco.github.io/crystal-collector/)
+### [Play the Game!](https://smit239.github.io/unit-4-game/)
 
 Technology:
 HTML5 | CSS3 | JavaScript | jQuery
