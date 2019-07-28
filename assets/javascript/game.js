@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	var rand = [];
 
-	for (var r = 19; r < 121; r++) {
+	for (var r = 21; r < 121; r++) {
 		rand.push(r);
 	}
 

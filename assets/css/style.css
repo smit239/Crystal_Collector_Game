@@ -10,8 +10,9 @@ body {
 }
 
 .jumbotron {
-	background-color: #1513a1;
-	color: aliceblue;
+	background-color: #1513af;
+	/*background-image: url("/assets/images/diamond-3.png");*/
+	color: white;
 
 }
 
