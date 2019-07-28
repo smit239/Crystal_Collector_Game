@@ -11,9 +11,9 @@ body {
 
 .jumbotron {
 	background-color: #1513af;
-	/*background-image: url("/assets/images/diamond-3.png");*/
+	/*background-image: url("../images/diamond-3.png");*/
 	color: white;
-
+	
 }
 
 #gameSection, #scoreSection {
@@ -29,8 +29,6 @@ body {
 }*/
 
 #buttonSection {
-
-	/*background-color: yellow;*/
 	padding: 0px;
 	padding-top: 50px;
 	padding-bottom: 25px;
@@ -39,13 +37,13 @@ body {
 /* Fonts */
 h1, h2, h3 {
 	font-family: 'Alfa Slab One', cursive;
-	color: aliceblue;
+	color: black;
 
 }
 
 p {
 	font-family: 'Ek Mukta', sans-serif;
-	color:aliceblue; 
+	color:black; 
 }
 
 .numberBox {
