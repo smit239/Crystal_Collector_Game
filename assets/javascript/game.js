@@ -1,27 +1,19 @@
 $(document).ready(function() {
 
-	// ******* NUMBER ARRAYS *******
-
-	// random computer variable array
 	var rand = [];
 
 	for (var r = 19; r < 121; r++) {
 		rand.push(r);
 	}
 
-	// crystal numbers array
-	var crystals = [];
+		var crystals = [];
 
 	for (var c = 1; c < 13; c++) {
 
 		crystals.push(c);
 	}
 
-	// console.log(crystals);
-
-	// ******* GLOBAL VARIABLES *******
-
-	// random variables selected by computer
+	
 	var randNumber; // number to match
 	var crystalNumbers = []; // for array of random crystal values
 
@@ -37,7 +29,7 @@ $(document).ready(function() {
 
 	// ******* FUNCTIONS *******
 
-	// pick a random number
+	// Random number picker
 	function pickRandomNumber(arr) {
 
 		var x = arr[Math.floor(Math.random() * arr.length)];
@@ -148,4 +140,4 @@ $(document).ready(function() {
 		}
 	});
 
-}); // end of script
+}); 
