@@ -22,12 +22,6 @@ body {
 	margin-right: auto;
 }
 
-/*FOR TESTING*/
-/*#numberSection, #totalPoints {
-
-	background-color: orange;
-}*/
-
 #buttonSection {
 	padding: 0px;
 	padding-top: 50px;
@@ -58,5 +52,17 @@ p {
   	max-height: 100px;
   	width: auto;
   	height: auto;
-  	margin:10px;
+	  margin:10px;
+	  
+	  
+}
+	/*Footer location and font*/
+
+footer
+{  text-align: center;
+	width: 100%;
+	color: #fafafa;
+	padding-bottom: 50px;
+
+
 }

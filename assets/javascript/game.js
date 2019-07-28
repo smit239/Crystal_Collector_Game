@@ -12,6 +12,20 @@ $(document).ready(function() {
 
 		crystals.push(c);
 	}
+	/*
+	var cr1 = Math.floor(Math.random() * (121 - 21) + 21);
+	var cr2 = Math.floor(Math.random() * (121 - 21) + 21);
+	var cr3 = Math.floor(Math.random() * (121 - 21) + 21);
+	var cr4 = Math.floor(Math.random() * (121 - 21) + 21);
+	console.log (cr1);
+	console.log (cr2);
+	console.log (cr3);
+	console.log (cr4);
+	$("#button-1").attr("crystalvalue",cr1);
+	$("#button-2").attr("crystalvalue",cr2);
+	$("#button-3").attr("crystalvalue",cr3);
+	$("#button-4").attr("crystalvalue",cr4);
+	*/
 
 	
 	var randNumber; // number to match
@@ -38,7 +52,7 @@ $(document).ready(function() {
 
 		console.log("random number: " + randNumber);
 
-	} // END of pickRandomNumber function
+	} 
 
 	// pick random numbers for crystals
 
