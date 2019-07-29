@@ -141,7 +141,7 @@ $(document).ready(function() {
 			$("#wins").html("Wins: " + wins);
 
 
-			setTimeout(function() {gameReset("CONGRAT, YOU WIN!!")}, 200);
+			setTimeout(function() {gameReset("YOU DID IT !! CONGRATS, YOU WIN!!")}, 200);
 		}
 
 		else if (totalScore > randNumber){
