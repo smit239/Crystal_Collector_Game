@@ -8,11 +8,16 @@ $(document).ready(function() {
 
 		var crystals = [];
 
-	for (var c = 1; c < 13; c++) {
+	for (var cr = 1; cr < 13; cr++) {
 
-		crystals.push(c);
-	}
-	/*
+		crystals.push(cr);
+	};
+	
+
+	
+	var randNumber; // number to match
+	var crystalNumbers = []; // for array of random crystal values
+
 	var cr1 = Math.floor(Math.random() * (121 - 21) + 21);
 	var cr2 = Math.floor(Math.random() * (121 - 21) + 21);
 	var cr3 = Math.floor(Math.random() * (121 - 21) + 21);
@@ -24,17 +29,7 @@ $(document).ready(function() {
 	$("#button-1").attr("crystalvalue",cr1);
 	$("#button-2").attr("crystalvalue",cr2);
 	$("#button-3").attr("crystalvalue",cr3);
-	$("#button-4").attr("crystalvalue",cr4);
-	*/
-
-	
-	var randNumber; // number to match
-	var crystalNumbers = []; // for array of random crystal values
-
-	var c1;
-	var c2;
-	var c3;
-	var c4;
+	$("#button-4").attr("crystalvalue",cr4)
 
   var totalScore = 0; // user's score
 
@@ -77,10 +72,10 @@ $(document).ready(function() {
 		$("#button-" + (i+1)).attr("value", arr[i]);
 		console.log(this);
 		}
-		c1 = arr[0];
-		c2 = arr[1];
-		c3 = arr[2];
-		c4 = arr[3];
+		cr1 = arr[0];
+		cr2 = arr[1];
+		cr3 = arr[2];
+		cr4 = arr[3];
 	} // END of crystalValues function
 
 	function gameReset(x) {
@@ -109,25 +104,25 @@ $(document).ready(function() {
 
 		$("#button-1").on("click", function() {
 
-			totalScore += c1;
+			totalScore += cr1;
 			$("#totalNumber").html(totalScore);
 		});
 
 		$("#button-2").on("click", function() {
 
-			totalScore += c2;
+			totalScore += cr2;
 			$("#totalNumber").html(totalScore);
 		});
 
 		$("#button-3").on("click", function() {
 
-			totalScore += c3;
+			totalScore += cr3;
 			$("#totalNumber").html(totalScore);
 		});
 
 		$("#button-4").on("click", function() {
 
-			totalScore += c4;
+			totalScore += cr4;
 			$("#totalNumber").html(totalScore);
 		});
 
