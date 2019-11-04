@@ -1,4 +1,4 @@
-# unit-4-game
+# Crystal Collctor Game
 jQuery Assignment
 A Fun jQuery Guessing Game
 
