@@ -1,4 +1,4 @@
-# Crystal Collctor Game
+# Crystal Collector Game
 jQuery Assignment
 A Fun jQuery Guessing Game
 
